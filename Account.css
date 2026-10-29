@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.NAV {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.25);
+    align-items: center;
+    font-size: 20px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    padding: 15px;
+    border-radius: 30px;
+
+}
+
+.links li {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    gap: 20px;
+}
+
+.links li a {
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.links li a:hover {
+    box-shadow: rgb(219, 171, 174);
+    cursor: pointer;
+    color: #000000;
+}
+
+.NAV h1 {
+    padding-left: 100px;
+}
+
+.links {
+    padding-right: 100px;
+}
+
+.Login_card {
+    position: relative;
+    width: 35%;
+    height: 55%;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 14px;
+    box-shadow: 0 0 50px 1px #00000030;
+}
+
+.Top_of_card {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 25%;
+    background-color: #e4e4e4;
+    color: #718ab4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px 14px 0 0;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.Form {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    bottom: 8%;
+}
+
+form {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.Form button{
+    width:40%;
+    height: 20%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 20%;
+    margin-top: 4%;
+    font-weight: bold;
+    border: none;
+}
+.Form button:hover{
+        background-color: #718ab4;
+        cursor: pointer;
+}
+.Form button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+form label {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #718ab4;
+}
+
+input {
+    margin: 2%;
+    width: 80%;
+    height: 20%;
+    border: none;
+    border-radius: 50px;
+    background-color: #eee;
+    text-align: center;
+    font-size: 16px;
+}
+input:focus {
+    border-color: #243b55;
+    outline: none;
+    box-shadow: 0 0 5px rgba(36, 59, 85, 0.5);
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 20%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #718ab4;
+    color: black;
+}
